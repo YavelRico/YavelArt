@@ -280,7 +280,9 @@ ul {
 	width: 450px;
 }
 .logogif{
-	margin: 70px 20px 60px 0px;
+	padding: 150px 20px 150px 0px;
+	background: rgb(36,44,102);
+	background: linear-gradient(0deg, rgba(36,44,102,1) 0%, rgba(73,86,185,1) 100%);
 }
 
 .links {
@@ -331,12 +333,24 @@ ul {
 	transform: scale(1.05);
 	text-decoration-color: #ABB4F8;
 }
-.pics{
-	width:35%;
-	transition: 0.5s;
+.galeria-dibujos{
+	display: flex;
+	width: 600px;
+	height: 430px;
 }
-.pics:hover{
-	transform: scale(1.05);
+
+.galeria-dibujos img{
+	width:10px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: 1s ease;
+}
+.galeria-dibujos img:hover{
+	cursor: crosshair;
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
 }
 /* Fading animation */
 .fades {
