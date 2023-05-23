@@ -1,0 +1,59 @@
+nav {
+    .navbar {
+        background-color: #4956b9;
+    }
+
+    .container-fluid {
+        .navbar-brand {
+            img {
+                height: 90px;
+                margin-bottom: 20px;
+            }
+        }
+
+        div {
+            ul {
+                li {
+                    .nav-item {
+                        color: #ADADAD;
+                    }
+
+                    .nav-link {
+                        color: white;
+                        transition: 0.2s;
+
+                        &:hover {
+                            color: #242c66;
+                            font-size: 18px;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        background-color: #d8ddff;
+
+                        .dropdown-item:hover {
+                            background-color: white;
+                        }
+                    }
+                }
+            }
+
+            .progr {
+                margin-top: 10px;
+                margin-right: 30px;
+            }
+        }
+
+        .lang {
+            font-size: 30px;
+            color: white;
+            margin-right: 30px;
+            transition: 0.2s;
+
+            &:hover {
+                font-size: 32px;
+                color: #242c66;
+            }
+        }
+    }
+}

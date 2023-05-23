@@ -1,0 +1,223 @@
+/*Responsive para Computadoras pequeñas*/
+@media screen and (max-width:1300px) {
+    body {
+        .bio {
+            div {
+                #avatar {
+                    width: 400px;
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    margin-top: 30px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            #presentacion {
+                width: 55%;
+                text-align: justify;
+                margin-left: 10px;
+                margin-right: 50px;
+            }
+        }
+
+        .links {
+            margin-top: 60px;
+            grid-row-gap: 70px;
+            margin: 100px 100px 80px 100px;
+        }
+
+        a {
+            .art-slideshow-container {
+                .artSlides {
+                    div {
+                        .pics {
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Responsive para Ipad y Tablets*/
+@media screen and (max-width:1000px) {
+    body {
+        nav {
+            .container-fluid {
+                .lang {
+                    visibility: hidden;
+                    display: none;
+                }
+            }
+        }
+
+        .bio {
+            div {
+                #avatar {
+                    width: 400px;
+                    margin: 30px 50px 50px 50px;
+                }
+            }
+
+            #presentacion {
+                width: 400px;
+                margin: 30px 50px 50px 50px;
+            }
+        }
+
+        a {
+            .art-slideshow-container {
+                .artSlides {
+                    div {
+                        .pics {
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .container {
+            .footer-cta {
+                visibility: hidden;
+                display: none;
+            }
+
+            .footer-content {
+                text-align: center;
+
+                .row {
+                    div {
+                        .footer-widget {
+
+                            .footer-text {
+                                visibility: hidden;
+                                display: none;
+                            }
+
+                            .footer-social-icon {
+                                span {
+                                    visibility: hidden;
+                                    display: none;
+                                }
+
+
+                            }
+                        }
+                    }
+
+                    .foot-links {
+                        visibility: hidden;
+                        display: none;
+
+                    }
+
+                    div {
+                        .subs {
+                            visibility: hidden;
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+/*Responsive para Celulares*/
+@media screen and (max-width:640px) {
+    .style2 {
+        font-size: 60px;
+    }
+
+    .style5 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    body {
+        nav {
+            .container-fluid {
+                .navbar-brand {
+                    img {
+                        width: 140px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .bio {
+            div {
+                #avatar {
+                    width: 75%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    margin-top: 10px;
+                    margin-bottom: 40px;
+                }
+            }
+
+            #presentacion {
+                width: 90%;
+                text-align: justify;
+                padding-left: 15px;
+            }
+        }
+
+        .logogif {
+            #logo-gif {
+                width: 250px;
+            }
+        }
+
+        .links {
+            display: block;
+            margin-top: 80px;
+            margin-bottom: 40px;
+            text-align: center;
+
+            .grid-item {
+                a {
+                    .boton1 {
+                        width: 200px;
+                        text-align: center;
+                        padding: 10px 0px;
+                        margin: 10px 0;
+                    }
+                }
+            }
+
+            .grid-item {
+                .pointr {
+                    display: none;
+                    visibility: hidden;
+                }
+            }
+
+            .grid-item {
+                .pointl {
+                    display: none;
+                    visibility: hidden;
+                }
+            }
+        }
+
+        a {
+            .art-slideshow-container {
+                .artSlides {
+                    div {
+                        .pics {
+                            width: 80%;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
