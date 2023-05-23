@@ -410,6 +410,26 @@ ul {
 	padding: 20px 0px;
 }
 
+.secciones-estudios {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 25% 10px 30%;
+	margin-bottom: 30px;
+}
+
+.boton-sec{
+	color: #96A0F0;
+	padding: 10px;
+	margin: 10px 30px;
+	border: 1px solid #96A0F0;
+	transition: 0.5s;
+}
+
+.boton-sec:hover{
+	color: #242c66;
+	background-color: #96A0F0;
+}
+
 .galeria {
 	margin: 100px 50px;
 }

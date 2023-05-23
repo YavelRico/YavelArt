@@ -198,7 +198,7 @@ body .titulos h4 {
 body .titulos .secciones-estudios {
   display: flex;
   flex-wrap: wrap; }
-  body .titulos .secciones-estudios .boton-sec {
+  body .titulos .secciones-estudios p {
     color: #96A0F0;
     padding: 10px;
     border: 1px solid #96A0F0; }
