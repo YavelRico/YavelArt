@@ -40,6 +40,23 @@
     }
 }
 
+@media screen and (max-width: 1250px) {
+    .titulos {
+        .galeria {
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            margin: 100px 50px;
+            grid-row-gap: 15px;
+            width: 100%;
+
+            div {
+                .imagen {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
 /*Responsive para Ipad y Tablets*/
 @media screen and (max-width:1000px) {
     body {
@@ -73,6 +90,21 @@
                         .pics {
                             width: 60%;
                         }
+                    }
+                }
+            }
+        }
+
+        .titulos {
+            .galeria {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-row-gap: 10px;
+                margin: 100px 0px;
+
+                div {
+                    .imagen {
+                        width: 50%;
                     }
                 }
             }
@@ -125,6 +157,97 @@
             }
         }
 
+    }
+}
+
+@media (max-width: 991.98px) {
+    body {
+        .prox {
+            .container {
+                .row {
+                    div {
+                        .row {
+                            div {
+                                .border-right {
+                                    padding-right: 0 !important;
+                                    border-right: none !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .style6 {
+        font-size: 18px;
+        margin: 0px 30px;
+    }
+
+    body {
+        .titulos {
+            h4 {
+                font-size: 30px;
+                margin: 50px 20px 40px 20px;
+            }
+
+            .galeria {
+                grid-template-columns: 100%;
+                margin-left: 20%;
+
+                div {
+                    .imagen {
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .container {
+            .footer-content {
+                .row {
+                    div {
+                        .footer-widget {
+                            .footer-logo {
+                                img {
+                                    width: 140px;
+                                }
+                            }
+
+                            .footer-social-icon {
+                                a {
+                                    i {
+                                        font-size: 20px;
+                                        margin: 0px 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .copyright-area {
+            padding: 15px 0;
+
+            .container {
+                .row {
+                    div {
+                        .copyright-text {
+                            p {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

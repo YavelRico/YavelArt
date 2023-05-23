@@ -8,6 +8,22 @@ body {
   background-color: #242c66;
   background-repeat: repeat;
   text-decoration: none; }
+  body a .scroll #bio {
+    width: 150px; }
+  body .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease; }
+    body .reveal:active {
+      transform: translateY(0);
+      opacity: 1; }
+  body .prox h3 {
+    text-align: center;
+    border: 1px solid #96A0F0;
+    color: #96A0F0;
+    font-size: 50px;
+    margin: 200px; }
 
 /*Estilos de Texto*/
 .style1 {
@@ -90,6 +106,210 @@ nav .container-fluid .lang {
   nav .container-fluid .lang:hover {
     font-size: 32px;
     color: #242c66; }
+
+/********----INDEX---*********/
+.style3 span {
+  color: #96A0F0; }
+
+body .logogif {
+  padding: 150px 20px 150px 0px;
+  background: #242c66;
+  background: linear-gradient(0deg, #242c66 0%, #4956b9 100%); }
+  body .logogif #logo-gif {
+    width: 450px; }
+
+body .bio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 80px 0px; }
+  body .bio div #avatar {
+    float: left;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    transition: 0.5s; }
+    body .bio div #avatar:hover {
+      transform: scale(1.05); }
+  body .bio #presentacion {
+    width: 60%;
+    text-align: justify; }
+
+body .links {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-row-gap: 130px; }
+  body .links .grid-item a .boton1 {
+    width: 250px;
+    text-align: center;
+    padding: 15px 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: underline;
+    text-decoration-color: #242c66; }
+    body .links .grid-item a .boton1:hover {
+      background-color: #ABB4F8;
+      border: 2px solid #ABB4F8;
+      transform: scale(1.05);
+      text-decoration-color: #ABB4F8; }
+  body .links .textol {
+    display: flex;
+    vertical-align: middle; }
+    body .links .textol .pointl {
+      height: 80px;
+      transform: rotate(90deg); }
+    body .links .textol p {
+      padding-top: 20px; }
+  body .links .textor {
+    display: flex;
+    direction: rtl;
+    vertical-align: middle; }
+    body .links .textor .pointr {
+      height: 80px;
+      transform: rotate(-90deg); }
+    body .links .textor p {
+      padding-top: 20px; }
+
+body a .art-slideshow-container {
+  margin: 200px 0px; }
+  body a .art-slideshow-container .artSlides div .pics {
+    width: 35%;
+    transition: 0.5s; }
+    body a .art-slideshow-container .artSlides div .pics:hover {
+      transform: scale(1.05); }
+  body a .art-slideshow-container .fades {
+    animation-name: fade;
+    animation-duration: 1.5s; }
+
+/********----ARTE---*********/
+body .titulos h4 {
+  text-align: center;
+  color: #96A0F0;
+  font-size: 50px;
+  margin: 100px 200px 80px 200px;
+  font-family: "Montserrat";
+  border: 1px solid #96A0F0;
+  padding: 20px 0px; }
+
+body .titulos .galeria {
+  margin: 100px 50px; }
+  body .titulos .galeria div .imagen {
+    transition: 0.5s; }
+    body .titulos .galeria div .imagen:hover {
+      transform: scale(1.05); }
+
+/********----ANIMACIONES---*********/
+/********----STORYBOARDS---*********/
+/********----MODELAJE---*********/
+/********----PERSONAJES---*********/
+/********----LOGOTIPOS---*********/
+/********----PAGINAS-WEB---*********/
+/********----CONTACTO---*********/
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a:hover {
+    text-decoration: none !important; }
+
+label.error {
+  font-size: 12px;
+  color: red; }
+
+body .prox .content {
+  padding: 7rem 0; }
+
+body .prox .container .row div .row div .contact-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  font-family: "Montserrat"; }
+
+body .prox .container .row div .row div form .row .form-group .form-control {
+  color: white;
+  border: 1px solid #96A0F0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  margin: 15px 0px;
+  border-radius: 10px;
+  background-color: #242c66;
+  transition: 0.5s;
+  height: 55px; }
+  body .prox .container .row div .row div form .row .form-group .form-control:hover {
+    transform: scale(1.02); }
+  body .prox .container .row div .row div form .row .form-group .form-control:active {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #242c66;
+    background-color: white;
+    transform: scale(1.08); }
+  body .prox .container .row div .row div form .row .form-group .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #242c66;
+    background-color: white;
+    transform: scale(1.08); }
+
+body .prox .container .row div .row div form .row div #message {
+  resize: vertical; }
+
+body .prox .container .row div .row div form .row .contact-button input {
+  background-color: #4956b9;
+  border: 1px solid #4956b9;
+  color: white;
+  font-family: "Montserrat";
+  margin-top: 20px;
+  transition: 0.5s; }
+  body .prox .container .row div .row div form .row .contact-button input:hover {
+    background-color: #96A0F0;
+    border: #96A0F0;
+    transform: scale(1.1);
+    color: #242c66; }
+
+body .prox .container .row div .row div form .row div .submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000; }
+
+body .prox .container .row div .row div .border-right {
+  padding-right: 6rem !important; }
+
+body .prox .container .row div .row div #form-message-warning {
+  display: none;
+  color: #B90B0B; }
+
+body .prox .container .row div .row div #form-message-success {
+  display: none;
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold; }
+
+body .prox .container .row div .contact-bio {
+  color: white;
+  font-family: "Montserrat"; }
+
+body .prox .container .row div .contact-link {
+  margin-top: 30px; }
+  body .prox .container .row div .contact-link a {
+    color: #96A0F0;
+    border: 1px solid #96A0F0;
+    padding: 10px;
+    transition: 0.5s; }
+    body .prox .container .row div .contact-link a:hover {
+      color: white;
+      background-color: #96A0F0;
+      padding: 15px; }
 
 footer {
   background: #4956b9;
@@ -248,6 +468,15 @@ footer {
   body a .art-slideshow-container .artSlides div .pics {
     width: 45%; } }
 
+@media screen and (max-width: 1250px) {
+  .titulos .galeria {
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 100px 50px;
+    grid-row-gap: 15px;
+    width: 100%; }
+    .titulos .galeria div .imagen {
+      width: 300px; } }
+
 /*Responsive para Ipad y Tablets*/
 @media screen and (max-width: 1000px) {
   body nav .container-fluid .lang {
@@ -261,6 +490,13 @@ footer {
     margin: 30px 50px 50px 50px; }
   body a .art-slideshow-container .artSlides div .pics {
     width: 60%; }
+  body .titulos .galeria {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 10px;
+    margin: 100px 0px; }
+    body .titulos .galeria div .imagen {
+      width: 50%; }
   footer .container .footer-cta {
     visibility: hidden;
     display: none; }
@@ -278,6 +514,33 @@ footer {
     footer .container .footer-content .row div .subs {
       visibility: hidden;
       display: none; } }
+
+@media (max-width: 991.98px) {
+  body .prox .container .row div .row div .border-right {
+    padding-right: 0 !important;
+    border-right: none !important; } }
+
+@media screen and (max-width: 800px) {
+  .style6 {
+    font-size: 18px;
+    margin: 0px 30px; }
+  body .titulos h4 {
+    font-size: 30px;
+    margin: 50px 20px 40px 20px; }
+  body .titulos .galeria {
+    grid-template-columns: 100%;
+    margin-left: 20%; }
+    body .titulos .galeria div .imagen {
+      width: 60%; }
+  footer .container .footer-content .row div .footer-widget .footer-logo img {
+    width: 140px; }
+  footer .container .footer-content .row div .footer-widget .footer-social-icon a i {
+    font-size: 20px;
+    margin: 0px 5px; }
+  footer .copyright-area {
+    padding: 15px 0; }
+    footer .copyright-area .container .row div .copyright-text p {
+      font-size: 10px; } }
 
 /*Responsive para Celulares*/
 @media screen and (max-width: 640px) {

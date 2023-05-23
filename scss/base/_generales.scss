@@ -9,6 +9,36 @@ body {
     background-color: #242c66;
     background-repeat: repeat;
     text-decoration: none;
+
+    a {
+        .scroll {
+            #bio {
+                width: 150px;
+            }
+        }
+    }
+
+    .reveal {
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 2s all ease;
+
+        &:active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .prox {
+        h3 {
+            text-align: center;
+            border: 1px solid #96A0F0;
+            color: #96A0F0;
+            font-size: 50px;
+            margin: 200px;
+        }
+    }
 }
 
 /*Estilos de Texto*/
