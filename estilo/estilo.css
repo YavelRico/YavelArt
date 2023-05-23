@@ -442,6 +442,12 @@ ul {
 	transform: scale(1.05);
 }
 
+/*CSS de Animación*/
+.videos{
+	width: 50%;
+	margin: 60px 25%;
+}
+
 /*CSS de Contacto*/
 a {
 	-webkit-transition: .3s all ease;
