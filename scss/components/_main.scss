@@ -141,6 +141,17 @@ body {
             padding: 20px 0px;
         }
 
+        .secciones-estudios {
+            display: flex;
+            flex-wrap: wrap;
+
+            .boton-sec {
+                color: #96A0F0;
+                padding: 10px;
+                border: 1px solid #96A0F0;
+            }
+        }
+
         .galeria {
             margin: 100px 50px;
 

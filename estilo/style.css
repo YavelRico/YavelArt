@@ -195,6 +195,14 @@ body .titulos h4 {
   border: 1px solid #96A0F0;
   padding: 20px 0px; }
 
+body .titulos .secciones-estudios {
+  display: flex;
+  flex-wrap: wrap; }
+  body .titulos .secciones-estudios .boton-sec {
+    color: #96A0F0;
+    padding: 10px;
+    border: 1px solid #96A0F0; }
+
 body .titulos .galeria {
   margin: 100px 50px; }
   body .titulos .galeria div .imagen {
