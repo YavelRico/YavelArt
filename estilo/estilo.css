@@ -417,7 +417,7 @@ ul {
 	margin-bottom: 30px;
 }
 
-.boton-sec{
+.boton-sec {
 	color: #96A0F0;
 	padding: 10px;
 	margin: 10px 30px;
@@ -425,7 +425,7 @@ ul {
 	transition: 0.5s;
 }
 
-.boton-sec:hover{
+.boton-sec:hover {
 	color: #242c66;
 	background-color: #96A0F0;
 }
@@ -443,9 +443,27 @@ ul {
 }
 
 /*CSS de Animación*/
-.videos{
+.videos {
 	width: 50%;
 	margin: 60px 25%;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.videos iframe {
+	transition: 1s;
+}
+
+.videos iframe:hover {
+	box-shadow: 10px 10px 20px 4px rgba(0, 0, 0, 0.5);
+}
+
+.videos:hover {
+	transform: scale(1.02);
+}
+
+.videos a img {
+	border-radius: 10px;
 }
 
 /*CSS de Contacto*/
