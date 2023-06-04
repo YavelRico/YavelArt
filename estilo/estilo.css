@@ -657,6 +657,127 @@ label.error {
 	text-decoration: none;
 }
 
+
+@media screen and (max-width: 768px) {
+
+	/* Estilos para pantallas de hasta 768px de ancho */
+	.navbar-nav {
+		flex-direction: column;
+	}
+
+	.nav-item.dropdown .dropdown-menu {
+		position: static;
+		display: none;
+		overflow: hidden;
+	}
+
+	.nav-item.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 576px) {
+
+	/* Estilos para pantallas de hasta 576px de ancho */
+	.navbar-nav .nav-item {
+		text-align: center;
+	}
+
+	.nav-link {
+		padding: 0.5rem 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	/* Estilos para pantallas de hasta 400px de ancho */
+	.navbar-brand img {
+		max-width: 150px;
+	}
+
+	.links {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: auto;
+		grid-row-gap: 30px;
+	}
+
+	.textol {
+		display: flex;
+		align-items: center;
+	}
+
+	.textor {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.boton1 {
+		width: 200px;
+		text-align: center;
+		padding: 15px 0px;
+		border: 2px solid white;
+		border-radius: 5px;
+		transition: 0.5s;
+		text-decoration: underline;
+		text-decoration-color: #242c66;
+	}
+}
+
+@media (max-width: 767px) {
+	/* Estilos para dispositivos con un ancho máximo de 767px (como smartphones en modo retrato) */
+
+	/* Ajustar el tamaño del encabezado y el contenido principal */
+	header {
+		font-size: 20px;
+	}
+
+	.main-content {
+		padding: 20px;
+	}
+
+	/* Ajustar el tamaño de las imágenes */
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/* Ajustar el tamaño de las secciones */
+	section {
+		padding: 10px;
+	}
+
+	.link-section a {
+		font-size: 16px;
+		padding: 10px;
+	}
+
+	/* Alinear los enlaces al centro */
+	.link-section {
+		text-align: center;
+	}
+
+	/* Alinear el texto al centro en las secciones */
+	section h2,
+	section p {
+		text-align: center;
+	}
+
+	/* Ajustar el tamaño de los botones */
+	.btn {
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+
+	/* Ajustar el tamaño del pie de página */
+	footer {
+		font-size: 14px;
+		padding: 10px;
+	}
+}
+
+
 /*Responsive para Computadoras pequeñas*/
 @media screen and (max-width:1300px) {
 	#avatar {
@@ -758,6 +879,18 @@ label.error {
 			padding-left: 15px;
 		}
 
+		#presentacion .style3 {
+			font-size: 14px;
+		}
+
+		#presentacion .style2 {
+			font-size: 40px;
+		}
+
+		#presentacion .style4 {
+			font-size: 30px;
+		}
+
 		.logogif #logo-gif {
 			width: 250px;
 		}
@@ -768,14 +901,16 @@ label.error {
 		}
 
 		.links {
-			display: block;
-			margin-top: 80px;
-			margin-bottom: 40px;
+			display: grid;
 			text-align: center;
+			column-gap: 40px;
+			margin: 20px 0 40px 0;
+			width: 90%;
+			align-items: center;
 		}
 
 		.boton1 {
-			width: 200px;
+			width: 150px;
 			text-align: center;
 			padding: 10px 0px;
 			margin: 10px 0;
@@ -789,6 +924,9 @@ label.error {
 		.pointl {
 			display: none;
 			visibility: hidden;
+		}
+		.textol .style5{
+			
 		}
 
 		.style2 {
