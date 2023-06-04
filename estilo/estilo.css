@@ -674,6 +674,10 @@ label.error {
 	.nav-item.dropdown:hover .dropdown-menu {
 		display: block;
 	}
+
+	.secciones-estudios {
+		padding: 10px;
+	}
 }
 
 @media screen and (max-width: 576px) {
@@ -774,6 +778,10 @@ label.error {
 	footer {
 		font-size: 14px;
 		padding: 10px;
+	}
+
+	.gallery-item {
+		width: calc(50% - 20px);
 	}
 }
 
@@ -925,9 +933,8 @@ label.error {
 			display: none;
 			visibility: hidden;
 		}
-		.textol .style5{
-			
-		}
+
+		.textol .style5 {}
 
 		.style2 {
 			font-size: 60px;
@@ -968,20 +975,16 @@ label.error {
 	@media screen and (max-width: 800px) {
 		.galeria {
 			grid-template-columns: 100%;
-			margin-left: 20%;
-		}
-
-		.imagen img {
-			width: 60%;
+			padding: 0px 50px;
 		}
 
 		.titulos h4 {
-			font-size: 30px;
+			font-size: 25px;
 			margin: 50px 20px 40px 20px;
 		}
 
 		.style6 {
-			font-size: 18px;
+			font-size: 16px;
 			margin: 0px 30px;
 		}
 
