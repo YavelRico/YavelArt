@@ -729,6 +729,13 @@ label.error {
 	}
 }
 
+@media (max-width: 768px) {
+	.video {
+	  width: 80%;
+	  margin: 0 auto;
+	}
+  }
+
 @media (max-width: 767px) {
 	/* Estilos para dispositivos con un ancho máximo de 767px (como smartphones en modo retrato) */
 
