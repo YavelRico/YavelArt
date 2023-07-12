@@ -7,14 +7,16 @@
 }
 
 body {
-	background-color: #242c66;
+	background-attachment: fixed;
 	background-repeat: repeat;
 	text-decoration: none;
+	background: rgb(36, 44, 102);
+	background: linear-gradient(0deg, rgba(36, 44, 102, 1) 0%, rgba(36, 44, 102, 1) 90%, rgba(73, 86, 185, 1) 100%);
 }
 
 /*Barra de navegacion*/
 .navbar {
-	background-color: #4956b9;
+	background-color: #4956b900;
 }
 
 .navbar-brand img {
