@@ -249,6 +249,9 @@ ul {
 .scroll img{
 	width: 150px;
 }
+.active, .dotc:hover {
+    background-color: #71717100;
+}
 
 /*CSS del index especifico*/
 .bio {
